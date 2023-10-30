@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Private Forum</title>
+</head>
+<body>
+
+  <header>
+    <h1>Private Forum</h1>
+    
+    <nav>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="posts">
+      <!-- dynamically loaded posts here --> 
+    </section>
+
+    <form id="new-post">
+      <textarea name="content"></textarea>
+      <button type="submit">Post</button> 
+    </form>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
